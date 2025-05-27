@@ -67,8 +67,7 @@ https://netflix-account-verify.com/help
 **Urgency Indicators:**
 - "URGENT" in the subject line
 - "account has been SUSPENDED"
-- "update your payment information IMMEDIATELY"
-- "within 24 HOURS"
+- "update your payment information IMMEDIATELY "within 24 HOURS"
 - "permanent deletion of your account"
 
 **Analysis:**
