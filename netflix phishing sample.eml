@@ -1,0 +1,99 @@
+Return-Path: <support@netflix-account-verify.com>
+Received: from mail-server.phishingdomain.com ([192.168.1.100])
+	by mx.google.com with ESMTP id y7si11259939plg.447.2023.04.15.08.30.42
+	for <customer@gmail.com>;
+	Sat, 15 Apr 2023 08:30:42 -0700 (PDT)
+Received-SPF: fail (google.com: domain of support@netflix-account-verify.com does not designate 192.168.1.100 as permitted sender) client-ip=192.168.1.100;
+Authentication-Results: mx.google.com;
+	spf=fail (google.com: domain of support@netflix-account-verify.com does not designate 192.168.1.100 as permitted sender) smtp.mailfrom=support@netflix-account-verify.com;
+	dkim=fail header.i=@netflix.com;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=netflix.com; s=selector1;
+	h=From:Date:Subject:Message-ID:Content-Type:MIME-Version;
+	bh=KCIyJ4SIAcI0qP+CbTcvz2ZJes2ZN9DzRUKk/9RkldE=;
+	b=fakehashnumbers1234567890abcdefghijklmnopqrstuvwxyz1234567890abcdefghijklmnopqrstuvwxyz
+From: "Netflix Support" <support@netflix.com>
+Reply-To: <support@netflix-account-verify.com>
+Date: Sat, 15 Apr 2023 08:30:40 -0700
+Subject: URGENT: Your Netflix Account Has Been Suspended
+Message-ID: <fake1234@phishingdomain.com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_0012_01D94A32.B5DEFC30"
+X-Mailer: Microsoft Outlook 16.0
+X-Priority: 1 (Highest)
+Importance: High
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_0012_01D94A32.B5DEFC30
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Dear Valued Netflix Customer,
+
+We regret to inform you that your Netflix account has been SUSPENDED due to a problem with your last billing information.
+
+We've tried to charge the payment method listed in your account, but there seems to be a problem.
+
+To continue enjoying our services without interruption, please update your payment information IMMEDIATELY by clicking the link below:
+
+UPDATE PAYMENT INFORMATION NOW: https://netflix-account-verify.com/login.php
+
+Failure to update your payment information within 24 HOURS will result in the permanent deletion of your account and all associated profiles.
+
+Thank you for your immediate attention to this matter.
+
+The Netflix Team
+
+© 2023 Netflix, Inc.
+
+------=_NextPart_000_0012_01D94A32.B5DEFC30
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8">
+<style type=3D"text/css">
+body {font-family: Arial, sans-serif; margin: 0; padding: 0;}
+.container {width: 600px; margin: 0 auto;}
+.header {background-color: #000000; padding: 20px; text-align: center;}
+.content {padding: 20px; background-color: #f5f5f5;}
+.footer {padding: 10px; text-align: center; font-size: 12px; color: #777;}
+.button {background-color: #e50914; color: white; padding: 10px 20px; text-decoration: none; border-radius: 3px; font-weight: bold;}
+.urgent {color: #e50914; font-weight: bold;}
+</style>
+</head>
+<body>
+<div class=3D"container">
+  <div class=3D"header">
+    <img src=3D"https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Netflix_2015_logo.svg/1920px-Netflix_2015_logo.svg.png" alt=3D"Netflix Logo" width=3D"150">
+  </div>
+  <div class=3D"content">
+    <h2>Account Suspension Notice</h2>
+    <p>Dear Valued Netflix Customer,</p>
+    <p class=3D"urgent">We regret to inform you that your Netflix account has been SUSPENDED due to a problem with your last billing information.</p>
+    <p>We've tried to charge the payment method listed in your account, but there seems to be a problem.</p>
+    <p>To continue enjoying our services without interruption, please update your payment information <span class=3D"urgent">IMMEDIATELY</span> by clicking the button below:</p>
+    <p style=3D"text-align: center; margin: 30px 0;">
+      <a href=3D"https://netflix-account-verify.com/login.php" class=3D"button">UPDATE PAYMENT INFORMATION NOW</a>
+    </p>
+    <p class=3D"urgent">Failure to update your payment information within 24 HOURS will result in the permanent deletion of your account and all associated profiles.</p>
+    <p>Thank you for your immediate attention to this matter.</p>
+    <p>The Netflix Team</p>
+  </div>
+  <div class=3D"footer">
+    <p>&copy; 2023 Netflix, Inc.</p>
+    <p>
+      <a href=3D"https://netflix-account-verify.com/terms">Terms of Use</a> |
+      <a href=3D"https://netflix-account-verify.com/privacy">Privacy</a> |
+      <a href=3D"https://netflix-account-verify.com/help">Help Center</a>
+    </p>
+  </div>
+</div>
+</body>
+</html>
+
+------=_NextPart_000_0012_01D94A32.B5DEFC30--
